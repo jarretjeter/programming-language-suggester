@@ -42,11 +42,21 @@ p {
   padding: 10px 0 0 10px;
 }
 
-.results {
-  display: none;
-}
+
 
 .results h2 {
   font-style: italic;
   text-align: center;
+}
+
+#java {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+#python {
+  display: none;
 }

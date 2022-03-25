@@ -1,8 +1,10 @@
 function resultGenerator() {
-
+  if (totalPyValue > totalJsValue && totalPyValue > totalJavaValue) {
+    $("#python").show();
+    $("#java").hide();
+    $("#javascript").hide();
+  }
 }
-
-
 
 $(document).ready(function() {
   $("form#questions").submit(function() {
