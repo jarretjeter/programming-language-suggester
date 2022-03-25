@@ -21,20 +21,11 @@ $(document).ready(function() {
     let javaValue5 = parseInt($("input:radio[class=java-5]:checked").val());
     let totalJavaValue = javaValue1 + javaValue2 + javaValue4 + javaValue5;
 
-    let jsValue1 = parseInt($("input:radio[class=java-1]:checked").val());
-    let jsValue3 = parseInt($("input:radio[class=java-1]:checked").val());
+    let jsValue1 = parseInt($("input:radio[class=js-1]:checked").val());
+    let jsValue3 = parseInt($("input:radio[class=js-3]:checked").val());
     let totalJsValue = jsValue1 + jsValue3;
 
 
-    // console.log($("input:radio[class=py-1]:checked").val());
-    // console.log($("input:radio[class=py-2]:checked").val());
-    // console.log($("input:radio[class=py-3]:checked").val());
-    // console.log($("input:radio[class=py-4]:checked").val());
-    // console.log($("input:radio[class=py-5]:checked").val());
-    // console.log(parseInt($("input:radio[class=py-1]:checked").val()));
-    // console.log(parseInt($("input:radio[class=py-3]:checked").val()));
-    console.log(pyValue1);
-    console.log(totalPyValue);
     resultGenerator();
   });
 });
