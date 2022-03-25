@@ -1,4 +1,6 @@
-function resultGenerator()
+function resultGenerator() {
+  
+}
 
 
 
