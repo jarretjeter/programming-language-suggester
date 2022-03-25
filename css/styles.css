@@ -13,7 +13,13 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.btn {
+  display: block;
+  font-size: 18px;
+  margin: 20px auto;
 }
 
 .card {
