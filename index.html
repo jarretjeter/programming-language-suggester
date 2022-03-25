@@ -14,26 +14,101 @@
 
     <div class="form-group">
       <form id="questions">
-        <div class="card">
+        <div id="question-1" class="card">
           <p>Are you more interested in the up-front user experience, or the inner workings behind the scenes?</p> 
           <div class="radio">
-          <label>
-            <input type="radio" name="ui-back-end">
-            I prefer the user's experience!
-          </label>
-          </div>
-  
-          <div class="radio">
             <label>
-              <input type="radio" name="ui-back-end">
-              Behind the scenes seems more fun.
+              <input type="radio" name="front-back" value="2" required>
+              I prefer the user's experience!
             </label>
           </div>
   
           <div class="radio">
             <label>
-              <input type="radio" name="ui-back-end">
-              Both are pretty interesting to me.
+              <input type="radio" name="front-back" value="2">
+              Behind the scenes seems more fun
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="front-back" value="1">
+              Hm, both are pretty interesting to me
+            </label>
+          </div>
+        </div>
+
+        <div id="question-2" class="card">
+          <p>Interested in building applications for businesses?</p> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="biz-app" value="1">
+              Sign me up!
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="biz-app" value="1">
+              Not really
+            </label>
+          </div>  
+        </div>
+
+        <div id="question-3" class="card">
+          <p>What about building websites?</p> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="websites" value="2">
+              Yes, I can really showcase my creativity there
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="websites" value="1">
+              Not so much
+            </label>
+          </div>
+        </div>
+
+        <div id="question-4" class="card">
+          <p>Would you rather work on data, or create mobile games?</p> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="data-game" value="2">
+              Working with data
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="data-game" value="2">
+              Creating mobile games
+            </label>
+          </div>
+        </div>
+
+        <div id="question-5" class="card">
+          <p>Which is more appealing: Working with servers or automation?</p> 
+          <div class="radio">
+            <label>
+              <input type="radio" name="serv-auto" value="1">
+              Definitely servers
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="serv-auto" value="1">
+              Automating things seems more fun to me
+            </label>
+          </div>
+  
+          <div class="radio">
+            <label>
+              <input type="radio" name="serv-auto" value="0">
+              I find neither particularly interesting.
             </label>
           </div>
         </div>
