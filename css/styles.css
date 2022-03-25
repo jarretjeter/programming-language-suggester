@@ -11,3 +11,7 @@ h1 {
   margin: 15px;
   text-align: center;
 }
+
+.radio {
+  border: 2px solid blue;
+}
