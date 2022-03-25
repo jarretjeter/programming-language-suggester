@@ -8,8 +8,17 @@ body {
 }
 
 h1 {
-  margin: 15px;
+  margin: 25px 15px 50px;
   text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.intro {
+  font-size: 24px;
+  margin: 0 0 50px 0;
 }
 
 .radio {
