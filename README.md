@@ -31,6 +31,6 @@ _This webpage uses javascript to check the radio buttons assigned to a correspon
 
 _If you have any issues with the code or ideas on how to better it, please contact me at jarretjeter@yahoo.com_
 
-[MIT](https://github.com/jarretjeter/programming-language-suggester/LICENSE.txt)
+[MIT](https://github.com/jarretjeter/programming-language-suggester/blob/main/LICENSE.txt)
 
 Copyright (c) _March 27 2022_ _Jarret Jeter_
