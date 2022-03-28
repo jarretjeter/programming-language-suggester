@@ -1,37 +1,36 @@
-# _{Application Name}_
+# _Programming Language Selector_
 
-#### By _**{List of contributors}**_
+#### By **Jarret Jeter**
 
-#### _{Brief description of application}_
+#### _This is a short survey webpage to help a user decide their first programming language to learn._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Javascript_
+* _Jquery_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This webpage uses javascript to check the radio buttons assigned to a corresponding language for their value if checked, and to assign that value to a variable. If a radio button isn't checked, its value will be 0. These values are then added to the appropriate language's variable (i.e totalJavaValue or totalPyValue). Lastly, those summed values will be compared with each other to return a result to the user._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* In git, clone this repository (https://github.com/jarretjeter/programming-language-suggester.git) onto your computer.
+* Open 'index.html' to see the webpage.
+* Depending on your responses to the questions, you will have a message relating to Python, Java, or Javascript appear at the bottom of the page.
+* You can open the html, css, and scripts files in a text editor to see how they work together.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs at this time.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any issues with the code or ideas on how to better it, please contact me at jarretjeter@yahoo.com_
 
-Copyright (c) _date_ _author name(s)_
+[MIT](https://github.com/jarretjeter/programming-language-suggester/LICENSE.txt)
+
+Copyright (c) _March 27 2022_ _Jarret Jeter_
