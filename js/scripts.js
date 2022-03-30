@@ -13,8 +13,7 @@ function resultGenerator(totalPyValue, totalJavaValue ,totalJsValue) {
     $("#javascript").show();
     $("#python").hide();
     $("#java").hide();
-  }
-    else {
+  } else {
     $("#javascript").show();
     $("#python").hide();
     $("#java").hide();
@@ -102,25 +101,6 @@ $(document).ready(function() {
   }
   totalJsValue = jsValueQ1 + jsValueQ3;
 
-  // Using branching to decide which result to return to the user
-  if (totalPyValue > totalJsValue && totalPyValue > totalJavaValue) {
-    $("#python").show();
-    $("#java").hide();
-    $("#javascript").hide();
-  } else if (totalJavaValue > totalPyValue && totalJavaValue > totalJsValue) {
-    $("#java").show();
-    $("#python").hide();
-    $("#javascript").hide();;
-  } else if (totalJsValue > totalPyValue && totalJsValue > totalJavaValue) {
-    $("#javascript").show();
-    $("#python").hide();
-    $("#java").hide();
-  }
-    else {
-    $("#javascript").show();
-    $("#python").hide();
-    $("#java").hide();
-  }
     resultGenerator(totalPyValue, totalJavaValue ,totalJsValue);
   });
 });

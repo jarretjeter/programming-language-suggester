@@ -49,6 +49,14 @@ p {
   text-align: center;
 }
 
-#java #javascript #python{
+#java {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+#python {
   display: none;
 }
