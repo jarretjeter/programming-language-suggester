@@ -6,9 +6,9 @@ function resultGenerator(totalPyValue, totalJavaValue ,totalJsValue) {
     $("#java").hide();
     $("#javascript").hide();
   } else if (totalJavaValue > totalPyValue && totalJavaValue > totalJsValue) {
-     $("#java").show();
-     $("#python").hide();
-     $("#javascript").hide();;
+    $("#java").show();
+    $("#python").hide();
+    $("#javascript").hide();;
   } else if (totalJsValue > totalPyValue && totalJsValue > totalJavaValue) {
     $("#javascript").show();
     $("#python").hide();
@@ -19,29 +19,6 @@ function resultGenerator(totalPyValue, totalJavaValue ,totalJsValue) {
     $("#python").hide();
     $("#java").hide();
   }
-  
-  //Alternate code
-  // let pyValue1 = parseInt($("input:radio[class=py-1]:checked").val());
-  // if (pyValue1 !== parseInt($("input:radio[class=py-1]:checked").val())) {
-  //   pyValue1 = 0;
-  // }  
-  // let pyValue2 = parseInt($("input:radio[class=py-2]:checked").val());
-  // if (pyValue2 !== parseInt($("input:radio[class=py-2]:checked").val())) {
-  //   pyValue2 = 0;
-  // }  
-  // let pyValue3 = parseInt($("input:radio[class=py-3]:checked").val());
-  // if (pyValue3 !== parseInt($("input:radio[class=py-3]:checked").val())) {
-  //   pyValue3 = 0;
-  // }  
-  // let pyValue4 = parseInt($("input:radio[class=py-4]:checked").val());
-  // if (pyValue4 !== parseInt($("input:radio[class=py-4]:checked").val())) {
-  //   pyValue4 = 0;
-  // }  
-  // let pyValue5 = parseInt($("input:radio[class=py-5]:checked").val());
-  // if (pyValue5 !== parseInt($("input:radio[class=py-5]:checked").val())) {
-  //   pyValue5 = 0;
-  // }
-
 };
 
 $(document).ready(function() {
@@ -80,7 +57,6 @@ $(document).ready(function() {
     pyValueQ5 = 0;
   }
   totalPyValue = pyValueQ1 + pyValueQ2 + pyValueQ3 + pyValueQ4 + pyValueQ5;
-  console.log("python " + totalPyValue);
 
   // Java radio button values defined with branching
   let javaValueQ1;
@@ -110,7 +86,6 @@ $(document).ready(function() {
     javaValueQ5 = 0;
   }
   totalJavaValue = javaValueQ1 + javaValueQ2 + javaValueQ4 + javaValueQ5;
-  console.log("java " + totalJavaValue);
 
   // Javascript radio button values defined with branching
   let jsValueQ1;
@@ -126,7 +101,6 @@ $(document).ready(function() {
     jsValueQ3 = 0;
   }
   totalJsValue = jsValueQ1 + jsValueQ3;
-  console.log("js " + totalJsValue);
 
   // Using branching to decide which result to return to the user
   if (totalPyValue > totalJsValue && totalPyValue > totalJavaValue) {
@@ -134,9 +108,9 @@ $(document).ready(function() {
     $("#java").hide();
     $("#javascript").hide();
   } else if (totalJavaValue > totalPyValue && totalJavaValue > totalJsValue) {
-     $("#java").show();
-     $("#python").hide();
-     $("#javascript").hide();;
+    $("#java").show();
+    $("#python").hide();
+    $("#javascript").hide();;
   } else if (totalJsValue > totalPyValue && totalJsValue > totalJavaValue) {
     $("#javascript").show();
     $("#python").hide();
@@ -147,10 +121,6 @@ $(document).ready(function() {
     $("#python").hide();
     $("#java").hide();
   }
-  
-    // console.log("Python " + totalPyValue);
-    // console.log("Java " + totalJavaValue);
-    // console.log("Js " + totalJsValue);
     resultGenerator(totalPyValue, totalJavaValue ,totalJsValue);
   });
 });
